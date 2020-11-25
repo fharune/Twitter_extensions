@@ -1,0 +1,16 @@
+{
+    "name": "Twitter Extension for bachelor thesis",
+    "description": "intentional tweets insert",
+    "version": "0.1",
+    "manifest_version": 2,
+    "content_scripts": [
+      {
+        "matches": ["https://twitter.com/*"],
+        "js": ["content_script.js"]
+      },
+      {
+        "matches": ["https://twitter.com/*"],
+        "css": ["mystyle.css"]
+      }
+    ]
+  }
